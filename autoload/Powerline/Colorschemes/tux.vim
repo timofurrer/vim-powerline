@@ -143,8 +143,8 @@ let g:Powerline#Colorschemes#tux#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
-		\ 'n': ['white', 'mediumgreen', ['bold']],
-		\ 'N': ['mediumgreen', 'darkestgreen', ['bold']],
+                \ 'n': ['base3', 'darkestblue', ['bold']],
+                \ 'N': ['gray5', 'base02', ['bold']],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.buffer', 'tagbar:static_str.buffer'], {
@@ -153,8 +153,8 @@ let g:Powerline#Colorschemes#tux#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:SPLIT', 'minibufexplorer:SPLIT', 'nerdtree:SPLIT', 'tagbar:SPLIT'], {
-		\ 'n': ['white', 'darkgreen'],
-		\ 'N': ['white', 'darkestgreen'],
+		\ 'n': ['gray3', 'base02'],
+		\ 'N': ['gray3', 'base02'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:focus', 'ctrlp:byfname'], {
