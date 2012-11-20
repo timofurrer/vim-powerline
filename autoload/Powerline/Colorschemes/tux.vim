@@ -56,7 +56,7 @@ call Pl#Hi#Allocate({
 	\ 'green'          : [64, 0x859900],
 	\ })
 
-let g:Powerline#Colorschemes#tuxtimo#colorscheme = Pl#Colorscheme#Init([
+let g:Powerline#Colorschemes#tux#colorscheme = Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['SPLIT'], {
 		\ 'n': ['white', 'gray2'],
 		\ 'N': ['white', 'gray0'],
